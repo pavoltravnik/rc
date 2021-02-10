@@ -2,6 +2,9 @@
 
 The non-configurable configuration loader for lazy people.
 
+This package is forked from [rc](https://github.com/dominictarr/rc/pull/121)
+Reason of fork [#121](https://github.com/dominictarr/rc/pull/121)
+
 ## Usage
 
 The only option is to pass rc the name of your app, and your default configuration.
@@ -191,7 +194,7 @@ Here is the expected output from various commands:
 }
 ```
 *Now the `port` comes from the `config.json` file specified (overriding the value from `.myapprc`), and `foo` value is overriden by command-line despite also being specified in the `config.json` file.*
- 
+
 
 
 ## Advanced Usage
@@ -219,7 +222,7 @@ such as strict, valid JSON only.
 
 ## Note on Performance
 
-`rc` is running `fs.statSync`-- so make sure you don't use it in a hot code path (e.g. a request handler) 
+`rc` is running `fs.statSync`-- so make sure you don't use it in a hot code path (e.g. a request handler)
 
 
 ## License
