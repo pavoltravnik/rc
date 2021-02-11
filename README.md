@@ -1,8 +1,9 @@
-# rc
+# rc-secure
 
 The non-configurable configuration loader for lazy people.
 
 This package is forked from [rc](https://github.com/dominictarr/rc/pull/121)
+
 Reason of fork [#121](https://github.com/dominictarr/rc/pull/121)
 
 ## Usage
@@ -227,4 +228,4 @@ such as strict, valid JSON only.
 
 ## License
 
-Multi-licensed under the two-clause BSD License, MIT License, or Apache License, version 2.0
+MIT License
